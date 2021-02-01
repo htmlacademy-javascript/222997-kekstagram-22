@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Игорь Чесалин](https://up.htmlacademy.ru/javascript/22/user/222997).
-* Наставник: [Евгений Лепёшкин]https://htmlacademy.ru/profile/id144641).
+* Наставник: [Евгений Лепёшкин](https://htmlacademy.ru/profile/id144641).
 
 ---
 
