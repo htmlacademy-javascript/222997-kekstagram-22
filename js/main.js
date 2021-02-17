@@ -1,7 +1,3 @@
-import { getRandomInt, stringCount, getRandomElementArr } from './util.js';
-import { addPhotos } from './data.js';
+import { renderPhotos } from './addpreview.js';
 
-getRandomElementArr();
-stringCount();
-getRandomInt();
-addPhotos();
+renderPhotos();
