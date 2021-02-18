@@ -43,18 +43,19 @@ const comments = [
 const addPhotos = () => {
   for (let i = 0; i < numberOfPhotos; i++) {
     photos.push({
-      id: [i],
-      url: 'photos/' + [i] + '.jpg',
+      id: i,
+      url: 'photos/' + (i + 1) + '.jpg',
       description: getRandomElementArr(descriptionPhoto),
       likes: getRandomInt(likes.MIN, likes.MAX),
-      comments: {
+      comments: [{
         id: getRandomInt(0, 999),
         avatar: 'img/avatar-' + getRandomInt(1, 6) + '.svg',
         message: getRandomElementArr(comments),
         name: getRandomElementArr(names),
-      },
+      }],
     })
   }
 }
+addPhotos();
 
-export { addPhotos };
+export default photos;
